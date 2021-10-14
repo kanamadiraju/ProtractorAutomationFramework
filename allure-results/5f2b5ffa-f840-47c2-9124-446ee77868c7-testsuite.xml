@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634229372157' stop='1634229415117'>
+    <name>Create Account TestSuite</name>
+    <title>Create Account TestSuite</title>
+    <test-cases>
+        <test-case start='1634229382042' status='passed' stop='1634229383195'>
+            <name>Empty email validation</name>
+            <title>Empty email validation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634229383195' status='passed' stop='1634229384507'>
+            <name>Wrong Email validation</name>
+            <title>Wrong Email validation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634229384507' status='passed' stop='1634229386168'>
+            <name>Registered Email validation</name>
+            <title>Registered Email validation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634229386168' status='passed' stop='1634229396453'>
+            <name>Correct Email validation</name>
+            <title>Correct Email validation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634229396453' status='passed' stop='1634229397970'>
+            <name>Personal info field validation</name>
+            <title>Personal info field validation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634229397970' status='passed' stop='1634229401277'>
+            <name>required fields empty</name>
+            <title>required fields empty</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634229401277' status='passed' stop='1634229404475'>
+            <name>required fields Input format</name>
+            <title>required fields Input format</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634229404475' status='passed' stop='1634229410758'>
+            <name>Create account successfully</name>
+            <title>Create account successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

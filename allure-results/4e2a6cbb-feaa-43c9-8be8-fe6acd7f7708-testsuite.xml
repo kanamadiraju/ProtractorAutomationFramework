@@ -1,0 +1,447 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634229323913' stop='1634229424901'>
+    <name>Create Account TestSuite</name>
+    <title>Create Account TestSuite</title>
+    <test-cases>
+        <test-case start='1634229324418' status='failed' stop='1634229328475'>
+            <name>Empty email validation</name>
+            <title>Empty email validation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)</message>
+                <stack-trace>WebDriverError: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: WebDriver.navigate().to(http://automationpractice.com/index.php?controller=authentication)
+                    at Driver.schedule (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Navigation.to (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1133:25)
+                    at Driver.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:988:28)
+                    at ProtractorBrowser.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:655:32)
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:11:17)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run beforeAll in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at UserContext.fn (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5325:13)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:8:5)
+                    at addSpecsToSuite (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:6:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+                    at Module.load (internal/modules/cjs/loader.js:1002:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:901:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1634229328475' status='failed' stop='1634229340508'>
+            <name>Wrong Email validation</name>
+            <title>Wrong Email validation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)</message>
+                <stack-trace>WebDriverError: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: WebDriver.navigate().to(http://automationpractice.com/index.php?controller=authentication)
+                    at Driver.schedule (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Navigation.to (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1133:25)
+                    at Driver.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:988:28)
+                    at ProtractorBrowser.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:655:32)
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:11:17)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run beforeAll in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at UserContext.fn (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5325:13)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:8:5)
+                    at addSpecsToSuite (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:6:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+                    at Module.load (internal/modules/cjs/loader.js:1002:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:901:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1634229340508' status='failed' stop='1634229352534'>
+            <name>Registered Email validation</name>
+            <title>Registered Email validation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)</message>
+                <stack-trace>WebDriverError: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: WebDriver.navigate().to(http://automationpractice.com/index.php?controller=authentication)
+                    at Driver.schedule (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Navigation.to (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1133:25)
+                    at Driver.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:988:28)
+                    at ProtractorBrowser.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:655:32)
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:11:17)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run beforeAll in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at UserContext.fn (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5325:13)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:8:5)
+                    at addSpecsToSuite (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:6:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+                    at Module.load (internal/modules/cjs/loader.js:1002:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:901:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1634229352534' status='failed' stop='1634229364569'>
+            <name>Correct Email validation</name>
+            <title>Correct Email validation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)</message>
+                <stack-trace>WebDriverError: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: WebDriver.navigate().to(http://automationpractice.com/index.php?controller=authentication)
+                    at Driver.schedule (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Navigation.to (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1133:25)
+                    at Driver.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:988:28)
+                    at ProtractorBrowser.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:655:32)
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:11:17)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run beforeAll in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at UserContext.fn (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5325:13)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:8:5)
+                    at addSpecsToSuite (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:6:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+                    at Module.load (internal/modules/cjs/loader.js:1002:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:901:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1634229364569' status='failed' stop='1634229376620'>
+            <name>Personal info field validation</name>
+            <title>Personal info field validation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)</message>
+                <stack-trace>WebDriverError: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: WebDriver.navigate().to(http://automationpractice.com/index.php?controller=authentication)
+                    at Driver.schedule (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Navigation.to (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1133:25)
+                    at Driver.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:988:28)
+                    at ProtractorBrowser.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:655:32)
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:11:17)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run beforeAll in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at UserContext.fn (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5325:13)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:8:5)
+                    at addSpecsToSuite (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:6:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+                    at Module.load (internal/modules/cjs/loader.js:1002:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:901:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1634229376620' status='failed' stop='1634229388772'>
+            <name>required fields empty</name>
+            <title>required fields empty</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)</message>
+                <stack-trace>WebDriverError: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: WebDriver.navigate().to(http://automationpractice.com/index.php?controller=authentication)
+                    at Driver.schedule (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Navigation.to (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1133:25)
+                    at Driver.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:988:28)
+                    at ProtractorBrowser.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:655:32)
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:11:17)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run beforeAll in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at UserContext.fn (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5325:13)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:8:5)
+                    at addSpecsToSuite (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:6:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+                    at Module.load (internal/modules/cjs/loader.js:1002:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:901:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1634229388772' status='failed' stop='1634229400827'>
+            <name>required fields Input format</name>
+            <title>required fields Input format</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)</message>
+                <stack-trace>WebDriverError: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: WebDriver.navigate().to(http://automationpractice.com/index.php?controller=authentication)
+                    at Driver.schedule (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Navigation.to (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1133:25)
+                    at Driver.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:988:28)
+                    at ProtractorBrowser.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:655:32)
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:11:17)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run beforeAll in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at UserContext.fn (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5325:13)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:8:5)
+                    at addSpecsToSuite (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:6:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+                    at Module.load (internal/modules/cjs/loader.js:1002:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:901:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1634229400827' status='failed' stop='1634229412880'>
+            <name>Create account successfully</name>
+            <title>Create account successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)</message>
+                <stack-trace>WebDriverError: unknown error: cannot determine loading status
+                from disconnected: received Inspector.detached event
+                  (Session info: chrome=94.0.4606.81)
+                  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Windows NT 10.0.18363 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: WebDriver.navigate().to(http://automationpractice.com/index.php?controller=authentication)
+                    at Driver.schedule (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Navigation.to (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1133:25)
+                    at Driver.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:988:28)
+                    at ProtractorBrowser.get (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:655:32)
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:11:17)
+                    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run beforeAll in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at UserContext.fn (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5325:13)
+                    at attempt (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:8:5)
+                    at addSpecsToSuite (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\nkanamadi\Documents\Project\ProtractorDemoTest\tests\CreateAccountTest.js:6:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+                    at Module.load (internal/modules/cjs/loader.js:1002:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:901:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

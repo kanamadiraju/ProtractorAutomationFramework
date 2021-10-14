@@ -1,0 +1,88 @@
+{
+   
+    "TestUrl":"http://automationpractice.com/index.php?controller=authentication",
+    
+    "InvalidCredentials":{
+		"EmailAddress1":"neki@email.com",
+		"password1":"sifra",
+		"EmailAddress2":"email@email.email",
+		"password2":"sifra",
+		"EmailAddress3":"mapkoct@gmail.com",
+		"password3":"asddsa"
+		
+    },
+	"LoginWithoutCredentials":{
+		"EmailAddress1":"",
+		"password1":"asddsa",
+		"EmailAddress2":"mapkoct@gmail.com",
+		"password2":"",
+		"EmailAddress3":"",
+		"password3":""
+	
+	},
+	"EmailFormatHighlightedRed&Green":{
+		"EmailAddress1":"email",
+		"password1":"",
+		"EmailAddress2":"email@email",
+		"password2":"",
+		"EmailAddress3":"email@email.email",
+		"password3":""
+	
+	},
+	"SuccessfulLogin":{
+		"EmailAddress1":"mapko602@yahoo.com",
+		"password1":"tester123"
+	
+	},
+	"WrongEmailValidation":{
+		"EmailAddress":"marko"
+	},
+	"RegisteredEmailvalidation":{
+		"EmailAddress":"email@email.email"
+	},
+	"CorrectEmailvalidation":{
+		"EmailAddress":"mapko123ct@gmail.com"
+	},
+	"PersonalInfoFieldvalidation":{
+		"EmailAddress1":"mapko123ct@gmail.com",
+		"FirstName1":"NingappaK",
+		"LastName1":"kanamadi",
+		"Password1":"tester",
+		"EmailAddress2":"",
+		"FirstName2":"",
+		"LastName2":"",
+		"Password2":""
+	},
+	"RequiredFieldsEmpty":{
+		"AlianAddress":"",
+		"EmailAddress":"",
+		"FirstName":"",
+		"LastName":"",
+		"Password":""
+		
+	},
+	"RequiredFieldInputsFormat":{
+	"EmailAddress":"kanamadi099@gmail",
+	"Password":"test",
+	"MobilePhone":"abc",
+	"HomePhone":"mno",
+	"PostalCode":"xyz"
+	},
+	"CreateAccountSuccessfully":{
+		"AlianAddress":"My Address",
+		"EmailAddress":"kanamadi006@gmail.com",
+		"FirstName":"NingappaK",
+		"LastName":"kanamadi",
+		"Password":"tester",
+		"DOBDate":"20",
+		"DOBMonth":"10",
+		"DOBYear":"1990",
+		"Address":"CircleZone",
+		"City":"Alaska",
+		"State":"3",
+		"MobilePhone":"06789",
+		"HomePhone":"124357",
+		"PostalCode":"21000"
+	}
+    
+    }

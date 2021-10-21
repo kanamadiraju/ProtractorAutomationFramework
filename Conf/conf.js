@@ -3,9 +3,10 @@ exports.config = {
   directConnect: true,
 
   // Capabilities to be passed to the webdriver instance.
-  capabilities: {
+ /* capabilities: {
     'browserName': 'chrome'
   },
+  */
 
   chromeOptions: {
     args: [ "--headless", "--disable-gpu", "--window-size=800,600" ]

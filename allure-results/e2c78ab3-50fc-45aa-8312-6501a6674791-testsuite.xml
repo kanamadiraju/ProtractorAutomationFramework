@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634821397830' stop='1634821464515'>
+    <name>Login Form TestSuite</name>
+    <title>Login Form TestSuite</title>
+    <test-cases>
+        <test-case start='1634821414414' status='passed' stop='1634821414507'>
+            <name>Login page</name>
+            <title>Login page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634821414507' status='passed' stop='1634821432944'>
+            <name>Invalid credentials</name>
+            <title>Invalid credentials</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634821432944' status='passed' stop='1634821443780'>
+            <name>Login without credentials</name>
+            <title>Login without credentials</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634821443780' status='passed' stop='1634821444269'>
+            <name>Email Format highlighted Red/Green</name>
+            <title>Email Format highlighted Red/Green</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634821444269' status='passed' stop='1634821453598'>
+            <name>Successful Login</name>
+            <title>Successful Login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -7,6 +7,7 @@ exports.config = {
     'browserName': 'chrome'
   },
   */
+  
 
   chromeOptions: {
     args: [ "--headless", "--disable-gpu", "--window-size=800,600" ]
@@ -16,7 +17,7 @@ exports.config = {
 
     maxInstances: 2, 
 
-    multiCapabilities: [
+   multiCapabilities: [
       {
           shardTestFiles: true,
           maxInstances: 1,
@@ -33,11 +34,13 @@ exports.config = {
           
       }
     ],
+    
 
-   /* specs: ['../tests/LoginFormTest.js',
+    /*specs: ['../tests/LoginFormTest.js',
           '../tests/CreateAccountTest.js'
         ],
         */
+      
 
   // Framework to use. Jasmine is recommended.
   framework: 'jasmine',

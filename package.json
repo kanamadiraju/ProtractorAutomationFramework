@@ -17,6 +17,7 @@
   "dependencies": {
     "chai": "^4.3.4",
     "jasmine": "^3.10.0",
+    "jasmine-allure-reporter": "^1.0.2",
     "protractor": "^7.0.0"
   }
 }

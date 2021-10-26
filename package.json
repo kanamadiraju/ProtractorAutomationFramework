@@ -4,7 +4,7 @@
   "description": "testing automationpractise application",
   "main": "index.js",
   "scripts": {
-    "update": "webdriver-manager update",
+    "update": "Webdriver-manager update",
     "test": "protractor ./Conf/conf.js",
     "posttest": "rmdir node_modules"
   },
@@ -17,7 +17,6 @@
   "dependencies": {
     "chai": "^4.3.4",
     "jasmine": "^3.10.0",
-    "jasmine-allure-reporter": "^1.0.2",
     "protractor": "^7.0.0"
   }
 }
